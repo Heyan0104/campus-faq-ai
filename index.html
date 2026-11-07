@@ -120,6 +120,48 @@
 </section>
 
 <section>
+  <h2>AI 語意搜尋測試成果</h2>
+  <p>
+    使用 qwen3-embedding:0.6b 模型，
+    測試不同文字描述能否找到相應的校園 FAQ。
+  </p>
+
+  <table border="1" cellpadding="10"
+         style="width:100%; border-collapse:collapse;">
+    <tr>
+      <th>測試問題</th>
+      <th>搜尋結果</th>
+      <th>相似度</th>
+    </tr>
+    <tr>
+      <td>我的卡片掉了，還能重新申請一張嗎？</td>
+      <td>學生證遺失</td>
+      <td>68.85%</td>
+    </tr>
+    <tr>
+      <td>我想取消這學期修的一門課</td>
+      <td>選課與加退選</td>
+      <td>72.60%</td>
+    </tr>
+    <tr>
+      <td>我連不上學校的無線網路</td>
+      <td>校園 Wi-Fi</td>
+      <td>92.92%</td>
+    </tr>
+    <tr>
+      <td>我忘記學校系統的登入資訊了</td>
+      <td>密碼重設</td>
+      <td>91.34%</td>
+    </tr>
+  </table>
+
+  <p>
+    測試結果顯示，系統能找出多種不同問法的相關問題。
+    但目前測試資料有限，語意相似度不代表答案正確率。
+  </p>
+</section>
+
+<section>
   <h2>05｜AI 使用說明</h2>
   <p><strong>AI 模型：</strong>
     qwen3-embedding:0.6b</p>
