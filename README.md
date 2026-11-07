@@ -96,3 +96,8 @@ Python 計算餘弦相似度，依相關程度排序，
 3. 一般退選與特殊退選等相近情境，仍可能產生搜尋歧義。
 4. 語意相似度不代表答案正確率。
 5. 系統目前使用 0.65 作為暫定搜尋門檻，尚未經完整測試集驗證。
+
+## 專案連結
+
+- GitHub Repository：https://github.com/Heyan0104/campus-faq-ai
+- GitHub Pages：https://heyan0104.github.io/campus-faq-ai/
