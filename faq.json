@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": "FAQ001",
+    "category": "學生事務",
+    "question": "學生證遺失怎麼辦？",
+    "alternative_questions": [
+      "我的學生證不見了",
+      "校園身分卡弄丟了怎麼辦",
+      "學生證要去哪裡補辦"
+    ],
+    "answer": "可先至東海大學校園IC證卡系統辦理掛失與相關申請，再依學校規定繳納工本費，將繳費收據交至註冊課務組。詳細流程請以官方網站為準。",
+    "source": "https://tcard.thu.edu.tw/"
+  },
+  {
+    "id": "FAQ002",
+    "category": "教務問題",
+    "question": "如何辦理選課與加退選？",
+    "alternative_questions": [
+      "我要怎麼選課",
+      "如何新增或取消課程",
+      "選課系統在哪裡"
+    ],
+    "answer": "可以先至東海大學課程資訊網查詢課程與選課時程，網路加退選則透過學生資訊系統辦理。各階段日期及特殊申請方式請依教務處當學期公告為準。",
+    "source": "https://course.thu.edu.tw/"
+  },
+  {
+    "id": "FAQ003",
+    "category": "資訊系統",
+    "question": "忘記THU-NID密碼怎麼辦？",
+    "alternative_questions": [
+      "我忘記學校帳號密碼",
+      "校務系統登入不了",
+      "學校密碼如何重設"
+    ],
+    "answer": "可以先透過東海大學個人帳號服務中心的忘記密碼功能重設。如果仍無法完成，可依官方客服中心指示尋求協助。",
+    "source": "https://helpdesk.thu.edu.tw/knowledgebase.php?article=9"
+  },
+  {
+    "id": "FAQ004",
+    "category": "資訊系統",
+    "question": "如何連接校園Wi-Fi？",
+    "alternative_questions": [
+      "學校網路怎麼連",
+      "校園無線網路怎麼登入",
+      "thu_5G如何使用"
+    ],
+    "answer": "開啟Wi-Fi並選擇thu_5G、thu或TANetRoaming，依登入頁面的指示使用THU-NID帳號及密碼認證。宿舍寢室網路可能有不同規定。",
+    "source": "https://wireless.thu.edu.tw/how-to-use/"
+  },
+  {
+    "id": "FAQ005",
+    "category": "學生事務",
+    "question": "如何申請在學證明？",
+    "alternative_questions": [
+      "我要去哪裡申請在學證明",
+      "如何證明自己是東海學生",
+      "在學證明可以線上下載嗎"
+    ],
+    "answer": "依教務處說明，學期在學證明可透過學生證相關註冊證明方式辦理；歷年在學證明可使用校內自動列印機付費列印。請至官方網站確認現行辦理方式。",
+    "source": "https://registcourse.thu.edu.tw/web/scholarships/list.php?cid=1&page=2"
+  },
+  {
+    "id": "FAQ006",
+    "category": "教務問題",
+    "question": "如何申請特殊情形退選？",
+    "alternative_questions": [
+      "錯過一般退選時間怎麼辦",
+      "特殊退選要找誰",
+      "課程特殊退選如何申請"
+    ],
+    "answer": "請先確認當學期是否開放特殊情形退選，依教務處規定填寫申請單並完成必要簽核及送件。申請期限與流程以當學期公告為準。",
+    "source": "https://course.thu.edu.tw/apply"
+  }
+]
