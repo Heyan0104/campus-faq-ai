@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus FAQ AI</title>
+  <style>
+    body {
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      background: #f4f7fb;
+      color: #243247;
+      margin: 0;
+      line-height: 1.8;
+    }
+    header {
+      background: #17365d;
+      color: white;
+      padding: 65px 20px;
+      text-align: center;
+    }
+    header h1 { margin-bottom: 8px; }
+    main {
+      max-width: 850px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: white;
+      padding: 28px;
+      margin-bottom: 22px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px #0000000c;
+    }
+    h2 { color: #17365d; }
+    code, pre {
+      background: #edf2f8;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    pre {
+      padding: 15px;
+      overflow-x: auto;
+    }
+    .result {
+      background: #edf6ff;
+      border-left: 4px solid #3478b8;
+      padding: 16px;
+      border-radius: 6px;
+    }
+    a { color: #1769aa; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Campus FAQ AI</h1>
+  <p>校園 FAQ AI 智慧語意搜尋系統</p>
+  <p>Python × Ollama × Embedding</p>
+</header>
+
+<main>
+
+<section>
+  <h2>01｜專題介紹</h2>
+  <p>
+    本專題透過 AI 語意搜尋技術，
+    協助大學生快速查找校園常見問題。
+  </p>
+  <p>
+    即使使用者的提問與 FAQ 資料庫的文字不同，
+    系統仍能比較語意相似度，找出相關資訊。
+  </p>
+</section>
+
+<section>
+  <h2>02｜主要功能</h2>
+  <ul>
+    <li>使用自然語言查詢校園問題</li>
+    <li>Embedding 語意向量搜尋</li>
+    <li>支援多種常見問法</li>
+    <li>顯示前三筆相關 FAQ</li>
+    <li>相似度門檻與拒答機制</li>
+    <li>提供 FAQ 答案及資料來源</li>
+  </ul>
+</section>
+
+<section>
+  <h2>03｜如何執行</h2>
+  <p>先安裝 Python、uv 和 Ollama。</p>
+
+  <pre>ollama pull qwen3-embedding:0.6b</pre>
+  <pre>uv sync</pre>
+  <pre>uv run python main.py</pre>
+
+  <p>執行後，在終端機輸入校園相關問題。</p>
+  <p>輸入 <code>exit</code> 可以結束程式。</p>
+</section>
+
+<section>
+  <h2>04｜執行結果</h2>
+  <div class="result">
+    <p><strong>使用者問題：</strong>
+      我的學生證不見了</p>
+    <p><strong>搜尋結果：</strong>
+      學生證遺失怎麼辦？</p>
+    <p><strong>語意相似度：</strong>81.78%</p>
+    <p><strong>結果：</strong>
+      成功找到相關 FAQ 與參考資訊。</p>
+  </div>
+  <p>
+    此為本機測試紀錄。
+    相似度不代表答案正確率。
+  </p>
+</section>
+
+<section>
+  <h2>05｜AI 使用說明</h2>
+  <p><strong>AI 模型：</strong>
+    qwen3-embedding:0.6b</p>
+  <p><strong>使用位置：</strong>
+    FAQ 與使用者問題的語意向量轉換。</p>
+  <p><strong>Python 負責：</strong>
+    資料讀取、相似度計算、排序與結果顯示。</p>
+  <p><strong>ChatGPT 輔助：</strong>
+    系統規劃、程式撰寫、錯誤排除及測試設計。</p>
+  <p>
+    開發者自行執行模型、測試不同問法，
+    並調整資料與搜尋邏輯。
+  </p>
+</section>
+
+<section>
+  <h2>06｜專案原始碼</h2>
+  <p>
+    <a href="https://github.com/Heyan0104/campus-faq-ai">
+      查看 GitHub Repository
+    </a>
+  </p>
+  <p>
+    本網頁為靜態成果展示，
+    AI 搜尋功能目前需在本機執行。
+  </p>
+</section>
+
+</main>
+
+<footer>
+  Campus FAQ AI | Python AI Project
+</footer>
+
+</body>
+</html>
